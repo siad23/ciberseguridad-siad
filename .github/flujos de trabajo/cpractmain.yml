@@ -12,5 +12,5 @@ jobs:
         con: 
           heroku_api_key: $ {{secrets.HEROKU_API_KEY}} 
           heroku_app_name: "listas" 
-          heroku_email: "fernando.9525.m@gmail.com" 
+          heroku_email: $ {{secrets.HEROKU_EMAIL}}  
           usedocker: true
